@@ -22,8 +22,8 @@ function destructivelyRemoveLastKitten(){
   return kittens;
 }
 function removeFirstKitten(){
-  kittens.slice();
-  return kittens;
+  var arr = kittens.slice(1);
+  return arr;
 }
 function destructivelyRemoveFirstKitten(){
   kittens.shift()
