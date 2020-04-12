@@ -22,7 +22,7 @@ function destructivelyRemoveLastKitten(){
   return kittens;
 }
 function removeFirstKitten(){
-  kittens.slice(1);
+  kittens.slice();
   return kittens;
 }
 function destructivelyRemoveFirstKitten(){
