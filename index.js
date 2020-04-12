@@ -2,8 +2,8 @@ var kittens = ["Milo", "Otis", "Garfield"] //define your array here
 
 // Add your functions and code her
 function appendKitten(name) {
-  kittens.concat(name);
-  return kittens;
+  var arr = kittens.concat(name);
+  return arr;
 }
 function destructivelyAppendKitten(name){
   kittens.push(name)
